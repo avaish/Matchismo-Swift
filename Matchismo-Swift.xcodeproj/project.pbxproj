@@ -12,6 +12,8 @@
 		4567A48619445F83004F888E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4567A48419445F83004F888E /* Main.storyboard */; };
 		4567A48819445F83004F888E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4567A48719445F83004F888E /* Images.xcassets */; };
 		4567A49419445F83004F888E /* Matchismo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A49319445F83004F888E /* Matchismo_SwiftTests.swift */; };
+		4567A4AC1944604C004F888E /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A4AB1944604C004F888E /* PlayingCard.swift */; };
+		4567A4AE194460AE004F888E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A4AD194460AE004F888E /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		4567A48D19445F83004F888E /* Matchismo-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Matchismo-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4567A49219445F83004F888E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4567A49319445F83004F888E /* Matchismo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchismo_SwiftTests.swift; sourceTree = "<group>"; };
+		4567A4AB1944604C004F888E /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingCard.swift; path = Model/PlayingCard.swift; sourceTree = "<group>"; };
+		4567A4AD194460AE004F888E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Model/Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		4567A47E19445F83004F888E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4567A4AD194460AE004F888E /* Card.swift */,
+				4567A4AB1944604C004F888E /* PlayingCard.swift */,
 				4567A47F19445F83004F888E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -210,6 +216,8 @@
 			files = (
 				4567A48319445F83004F888E /* ViewController.swift in Sources */,
 				4567A48119445F83004F888E /* AppDelegate.swift in Sources */,
+				4567A4AC1944604C004F888E /* PlayingCard.swift in Sources */,
+				4567A4AE194460AE004F888E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
