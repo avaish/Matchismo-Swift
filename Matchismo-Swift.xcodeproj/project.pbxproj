@@ -7,16 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4503EEB919466314004956FC /* CardTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503EEB819466314004956FC /* CardTestCase.swift */; };
 		4567A48119445F83004F888E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A48019445F83004F888E /* AppDelegate.swift */; };
 		4567A48319445F83004F888E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A48219445F83004F888E /* ViewController.swift */; };
 		4567A48619445F83004F888E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4567A48419445F83004F888E /* Main.storyboard */; };
 		4567A48819445F83004F888E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4567A48719445F83004F888E /* Images.xcassets */; };
-		4567A49419445F83004F888E /* Matchismo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A49319445F83004F888E /* Matchismo_SwiftTests.swift */; };
 		4567A4AC1944604C004F888E /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A4AB1944604C004F888E /* PlayingCard.swift */; };
 		4567A4AE194460AE004F888E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A4AD194460AE004F888E /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4503EEBA19466632004956FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4567A47319445F83004F888E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4567A47A19445F83004F888E;
+			remoteInfo = Matchismo;
+		};
+		4503EEBC19466632004956FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4567A47319445F83004F888E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4567A47A19445F83004F888E;
+			remoteInfo = Matchismo;
+		};
+		4503EEBE1946663A004956FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4567A47319445F83004F888E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4567A47A19445F83004F888E;
+			remoteInfo = Matchismo;
+		};
+		4503EEC01946663F004956FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4567A47319445F83004F888E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4567A47A19445F83004F888E;
+			remoteInfo = Matchismo;
+		};
+		4503EEC219466648004956FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4567A47319445F83004F888E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4567A47A19445F83004F888E;
+			remoteInfo = Matchismo;
+		};
 		4567A48E19445F83004F888E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4567A47319445F83004F888E /* Project object */;
@@ -27,15 +62,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4567A47B19445F83004F888E /* Matchismo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matchismo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4503EEB819466314004956FC /* CardTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTestCase.swift; sourceTree = "<group>"; };
+		4567A47B19445F83004F888E /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4567A47F19445F83004F888E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4567A48019445F83004F888E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4567A48219445F83004F888E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4567A48519445F83004F888E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4567A48719445F83004F888E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4567A48D19445F83004F888E /* Matchismo-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Matchismo-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4567A48D19445F83004F888E /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4567A49219445F83004F888E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4567A49319445F83004F888E /* Matchismo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchismo_SwiftTests.swift; sourceTree = "<group>"; };
 		4567A4AB1944604C004F888E /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingCard.swift; path = Model/PlayingCard.swift; sourceTree = "<group>"; };
 		4567A4AD194460AE004F888E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Model/Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,8 +96,8 @@
 		4567A47219445F83004F888E = {
 			isa = PBXGroup;
 			children = (
-				4567A47D19445F83004F888E /* Matchismo-Swift */,
-				4567A49019445F83004F888E /* Matchismo-SwiftTests */,
+				4567A47D19445F83004F888E /* Matchismo */,
+				4567A49019445F83004F888E /* MatchismoTests */,
 				4567A47C19445F83004F888E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +105,13 @@
 		4567A47C19445F83004F888E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4567A47B19445F83004F888E /* Matchismo-Swift.app */,
-				4567A48D19445F83004F888E /* Matchismo-SwiftTests.xctest */,
+				4567A47B19445F83004F888E /* Matchismo.app */,
+				4567A48D19445F83004F888E /* MatchismoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4567A47D19445F83004F888E /* Matchismo-Swift */ = {
+		4567A47D19445F83004F888E /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
 				4567A48019445F83004F888E /* AppDelegate.swift */,
@@ -85,7 +120,7 @@
 				4567A48719445F83004F888E /* Images.xcassets */,
 				4567A47E19445F83004F888E /* Supporting Files */,
 			);
-			path = "Matchismo-Swift";
+			path = Matchismo;
 			sourceTree = "<group>";
 		};
 		4567A47E19445F83004F888E /* Supporting Files */ = {
@@ -98,13 +133,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4567A49019445F83004F888E /* Matchismo-SwiftTests */ = {
+		4567A49019445F83004F888E /* MatchismoTests */ = {
 			isa = PBXGroup;
 			children = (
-				4567A49319445F83004F888E /* Matchismo_SwiftTests.swift */,
+				4503EEB819466314004956FC /* CardTestCase.swift */,
 				4567A49119445F83004F888E /* Supporting Files */,
 			);
-			path = "Matchismo-SwiftTests";
+			path = MatchismoTests;
 			sourceTree = "<group>";
 		};
 		4567A49119445F83004F888E /* Supporting Files */ = {
@@ -118,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4567A47A19445F83004F888E /* Matchismo-Swift */ = {
+		4567A47A19445F83004F888E /* Matchismo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4567A49719445F83004F888E /* Build configuration list for PBXNativeTarget "Matchismo-Swift" */;
+			buildConfigurationList = 4567A49719445F83004F888E /* Build configuration list for PBXNativeTarget "Matchismo" */;
 			buildPhases = (
 				4567A47719445F83004F888E /* Sources */,
 				4567A47819445F83004F888E /* Frameworks */,
@@ -130,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = "Matchismo-Swift";
+			name = Matchismo;
 			productName = "Matchismo-Swift";
-			productReference = 4567A47B19445F83004F888E /* Matchismo-Swift.app */;
+			productReference = 4567A47B19445F83004F888E /* Matchismo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4567A48C19445F83004F888E /* Matchismo-SwiftTests */ = {
+		4567A48C19445F83004F888E /* MatchismoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4567A49A19445F83004F888E /* Build configuration list for PBXNativeTarget "Matchismo-SwiftTests" */;
+			buildConfigurationList = 4567A49A19445F83004F888E /* Build configuration list for PBXNativeTarget "MatchismoTests" */;
 			buildPhases = (
 				4567A48919445F83004F888E /* Sources */,
 				4567A48A19445F83004F888E /* Frameworks */,
@@ -147,10 +182,15 @@
 			);
 			dependencies = (
 				4567A48F19445F83004F888E /* PBXTargetDependency */,
+				4503EEBB19466632004956FC /* PBXTargetDependency */,
+				4503EEBD19466632004956FC /* PBXTargetDependency */,
+				4503EEBF1946663A004956FC /* PBXTargetDependency */,
+				4503EEC11946663F004956FC /* PBXTargetDependency */,
+				4503EEC319466648004956FC /* PBXTargetDependency */,
 			);
-			name = "Matchismo-SwiftTests";
+			name = MatchismoTests;
 			productName = "Matchismo-SwiftTests";
-			productReference = 4567A48D19445F83004F888E /* Matchismo-SwiftTests.xctest */;
+			productReference = 4567A48D19445F83004F888E /* MatchismoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -184,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4567A47A19445F83004F888E /* Matchismo-Swift */,
-				4567A48C19445F83004F888E /* Matchismo-SwiftTests */,
+				4567A47A19445F83004F888E /* Matchismo */,
+				4567A48C19445F83004F888E /* MatchismoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,16 +265,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4567A49419445F83004F888E /* Matchismo_SwiftTests.swift in Sources */,
+				4503EEB919466314004956FC /* CardTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4503EEBB19466632004956FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4567A47A19445F83004F888E /* Matchismo */;
+			targetProxy = 4503EEBA19466632004956FC /* PBXContainerItemProxy */;
+		};
+		4503EEBD19466632004956FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4567A47A19445F83004F888E /* Matchismo */;
+			targetProxy = 4503EEBC19466632004956FC /* PBXContainerItemProxy */;
+		};
+		4503EEBF1946663A004956FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4567A47A19445F83004F888E /* Matchismo */;
+			targetProxy = 4503EEBE1946663A004956FC /* PBXContainerItemProxy */;
+		};
+		4503EEC11946663F004956FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4567A47A19445F83004F888E /* Matchismo */;
+			targetProxy = 4503EEC01946663F004956FC /* PBXContainerItemProxy */;
+		};
+		4503EEC319466648004956FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4567A47A19445F83004F888E /* Matchismo */;
+			targetProxy = 4503EEC219466648004956FC /* PBXContainerItemProxy */;
+		};
 		4567A48F19445F83004F888E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4567A47A19445F83004F888E /* Matchismo-Swift */;
+			target = 4567A47A19445F83004F888E /* Matchismo */;
 			targetProxy = 4567A48E19445F83004F888E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -333,7 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "Matchismo-Swift/Info.plist";
+				INFOPLIST_FILE = Matchismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -344,7 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "Matchismo-Swift/Info.plist";
+				INFOPLIST_FILE = Matchismo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +418,7 @@
 		4567A49B19445F83004F888E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Matchismo-Swift.app/Matchismo-Swift";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Matchismo.app/Matchismo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -362,7 +427,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Matchismo-SwiftTests/Info.plist";
+				INFOPLIST_FILE = MatchismoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,12 +438,12 @@
 		4567A49C19445F83004F888E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Matchismo-Swift.app/Matchismo-Swift";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Matchismo.app/Matchismo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Matchismo-SwiftTests/Info.plist";
+				INFOPLIST_FILE = MatchismoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,21 +463,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4567A49719445F83004F888E /* Build configuration list for PBXNativeTarget "Matchismo-Swift" */ = {
+		4567A49719445F83004F888E /* Build configuration list for PBXNativeTarget "Matchismo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4567A49819445F83004F888E /* Debug */,
 				4567A49919445F83004F888E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4567A49A19445F83004F888E /* Build configuration list for PBXNativeTarget "Matchismo-SwiftTests" */ = {
+		4567A49A19445F83004F888E /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4567A49B19445F83004F888E /* Debug */,
 				4567A49C19445F83004F888E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

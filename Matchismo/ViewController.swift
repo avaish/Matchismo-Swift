@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Matchismo-Swift
+//  Matchismo
 //
 //  Created by Atharv Vaish on 6/8/14.
 //  Copyright (c) 2014 Atharv Vaish. All rights reserved.
