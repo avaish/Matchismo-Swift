@@ -51,6 +51,7 @@ class PlayingCard: Card {
     set { }
     }
     
+    // TODO: remove upon bugfix
     override var description: String {
     get {
         return self.contents

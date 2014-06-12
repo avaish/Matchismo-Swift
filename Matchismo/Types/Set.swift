@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Atharv Vaish. All rights reserved.
 //
 
+// TODO: Move to external module
+// This class might be replaced by a built-in type in the future.
 class Set<T: Hashable> {
     var underlyingDict = Dictionary<T, Bool>()
     

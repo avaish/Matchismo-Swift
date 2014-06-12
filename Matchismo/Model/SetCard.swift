@@ -49,6 +49,7 @@ class SetCard: Card {
     set { }
     }
     
+    // TODO: remove upon bugfix
     override var description: String {
     get {
         return self.contents
@@ -95,6 +96,7 @@ class SetCard: Card {
         }
     }
     
+    // TODO: change to a class variable once language support exists.
     class func maxNumber() -> Int {
         return 3
     }
