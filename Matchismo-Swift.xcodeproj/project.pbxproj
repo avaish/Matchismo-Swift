@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4503EEB919466314004956FC /* CardTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503EEB819466314004956FC /* CardTestCase.swift */; };
+		4527F65C1946E4ED00CEA4FC /* PlayingCardTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F65B1946E4ED00CEA4FC /* PlayingCardTestCase.swift */; };
+		4527F65E19471C5B00CEA4FC /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F65D19471C5B00CEA4FC /* SetCard.swift */; };
 		4567A48119445F83004F888E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A48019445F83004F888E /* AppDelegate.swift */; };
 		4567A48319445F83004F888E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A48219445F83004F888E /* ViewController.swift */; };
 		4567A48619445F83004F888E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4567A48419445F83004F888E /* Main.storyboard */; };
 		4567A48819445F83004F888E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4567A48719445F83004F888E /* Images.xcassets */; };
 		4567A4AC1944604C004F888E /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A4AB1944604C004F888E /* PlayingCard.swift */; };
 		4567A4AE194460AE004F888E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A4AD194460AE004F888E /* Card.swift */; };
+		456881581949B70D005B2EB9 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456881571949B70D005B2EB9 /* Set.swift */; };
+		45D70B7A1949ABD600AAC25A /* SetCardTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D70B791949ABD600AAC25A /* SetCardTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,8 @@
 
 /* Begin PBXFileReference section */
 		4503EEB819466314004956FC /* CardTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTestCase.swift; sourceTree = "<group>"; };
+		4527F65B1946E4ED00CEA4FC /* PlayingCardTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardTestCase.swift; sourceTree = "<group>"; };
+		4527F65D19471C5B00CEA4FC /* SetCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetCard.swift; path = Model/SetCard.swift; sourceTree = "<group>"; };
 		4567A47B19445F83004F888E /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4567A47F19445F83004F888E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4567A48019445F83004F888E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +79,8 @@
 		4567A49219445F83004F888E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4567A4AB1944604C004F888E /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingCard.swift; path = Model/PlayingCard.swift; sourceTree = "<group>"; };
 		4567A4AD194460AE004F888E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Model/Card.swift; sourceTree = "<group>"; };
+		456881571949B70D005B2EB9 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Set.swift; path = Types/Set.swift; sourceTree = "<group>"; };
+		45D70B791949ABD600AAC25A /* SetCardTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetCardTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,7 @@
 				4567A48219445F83004F888E /* ViewController.swift */,
 				4567A48419445F83004F888E /* Main.storyboard */,
 				4567A48719445F83004F888E /* Images.xcassets */,
+				456881561949B6EA005B2EB9 /* Types */,
 				4567A47E19445F83004F888E /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -128,6 +137,7 @@
 			children = (
 				4567A4AD194460AE004F888E /* Card.swift */,
 				4567A4AB1944604C004F888E /* PlayingCard.swift */,
+				4527F65D19471C5B00CEA4FC /* SetCard.swift */,
 				4567A47F19445F83004F888E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -137,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				4503EEB819466314004956FC /* CardTestCase.swift */,
+				45D70B791949ABD600AAC25A /* SetCardTestCase.swift */,
+				4527F65B1946E4ED00CEA4FC /* PlayingCardTestCase.swift */,
 				4567A49119445F83004F888E /* Supporting Files */,
 			);
 			path = MatchismoTests;
@@ -148,6 +160,14 @@
 				4567A49219445F83004F888E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		456881561949B6EA005B2EB9 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				456881571949B70D005B2EB9 /* Set.swift */,
+			);
+			name = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4527F65E19471C5B00CEA4FC /* SetCard.swift in Sources */,
 				4567A48319445F83004F888E /* ViewController.swift in Sources */,
+				456881581949B70D005B2EB9 /* Set.swift in Sources */,
 				4567A48119445F83004F888E /* AppDelegate.swift in Sources */,
 				4567A4AC1944604C004F888E /* PlayingCard.swift in Sources */,
 				4567A4AE194460AE004F888E /* Card.swift in Sources */,
@@ -265,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4527F65C1946E4ED00CEA4FC /* PlayingCardTestCase.swift in Sources */,
+				45D70B7A1949ABD600AAC25A /* SetCardTestCase.swift in Sources */,
 				4503EEB919466314004956FC /* CardTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

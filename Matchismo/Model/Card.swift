@@ -13,7 +13,7 @@ class Card {
     
     var description: String {
     get {
-        return contents
+        return self.contents
     }
     }
     

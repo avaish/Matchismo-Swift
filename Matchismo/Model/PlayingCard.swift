@@ -51,13 +51,17 @@ class PlayingCard: Card {
     set { }
     }
     
+    override var description: String {
+    get {
+        return self.contents
+    }
+    }
+    
     init(rank: Rank, suit: Suit) {
         self.suit = suit
         self.rank = rank
         
         super.init()
-        
-        println(self.contents)
     }
     
     override func match(otherCards: Card[]) -> Int {
@@ -109,6 +113,6 @@ class PlayingCard: Card {
             }
         })
         
-        return scores.reduce(Int.min, combine: { $0 > $1 ? $0 : $1 });
+        return scores.reduce(Int.min, combine: { max($0, $1) });
     }
 }

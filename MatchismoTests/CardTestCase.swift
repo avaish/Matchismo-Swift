@@ -49,6 +49,7 @@ class CardTestCase: XCTestCase {
         var card = Card()
         card.contents = "Test Card"
         
+        XCTAssert(card.contents == "Test Card", "Contents getter error.")
         XCTAssert(card.description == "Test Card", "Description getter error.")
     }
 
