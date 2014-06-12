@@ -105,6 +105,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		454D932F1949CDA500A2C4B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4567A4AD194460AE004F888E /* Card.swift */,
+				4567A4AB1944604C004F888E /* PlayingCard.swift */,
+				454D932B1949C1C600A2C4B6 /* Deck.swift */,
+				4527F65D19471C5B00CEA4FC /* SetCard.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		454D93301949CDB700A2C4B6 /* Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4503EEB819466314004956FC /* CardTestCase.swift */,
+				454D932D1949C8AC00A2C4B6 /* DeckTestCase.swift */,
+				45D70B791949ABD600AAC25A /* SetCardTestCase.swift */,
+				4527F65B1946E4ED00CEA4FC /* PlayingCardTestCase.swift */,
+			);
+			name = "Model Tests";
+			sourceTree = "<group>";
+		};
 		4567A47219445F83004F888E = {
 			isa = PBXGroup;
 			children = (
@@ -130,31 +152,25 @@
 				4567A48219445F83004F888E /* ViewController.swift */,
 				4567A48419445F83004F888E /* Main.storyboard */,
 				4567A48719445F83004F888E /* Images.xcassets */,
+				454D932F1949CDA500A2C4B6 /* Model */,
 				456881561949B6EA005B2EB9 /* Types */,
-				4567A47E19445F83004F888E /* Model */,
+				4567A47E19445F83004F888E /* Supporting Files */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
 		};
-		4567A47E19445F83004F888E /* Model */ = {
+		4567A47E19445F83004F888E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4567A4AD194460AE004F888E /* Card.swift */,
-				4567A4AB1944604C004F888E /* PlayingCard.swift */,
-				454D932B1949C1C600A2C4B6 /* Deck.swift */,
-				4527F65D19471C5B00CEA4FC /* SetCard.swift */,
 				4567A47F19445F83004F888E /* Info.plist */,
 			);
-			name = Model;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4567A49019445F83004F888E /* MatchismoTests */ = {
 			isa = PBXGroup;
 			children = (
-				4503EEB819466314004956FC /* CardTestCase.swift */,
-				454D932D1949C8AC00A2C4B6 /* DeckTestCase.swift */,
-				45D70B791949ABD600AAC25A /* SetCardTestCase.swift */,
-				4527F65B1946E4ED00CEA4FC /* PlayingCardTestCase.swift */,
+				454D93301949CDB700A2C4B6 /* Model Tests */,
 				4567A49119445F83004F888E /* Supporting Files */,
 			);
 			path = MatchismoTests;
