@@ -6,23 +6,30 @@
 //  Copyright (c) 2014 Atharv Vaish. All rights reserved.
 //
 
-enum Suit: String {
+enum Suit: String, Printable {
     case Diamonds = "♦️"
     case Hearts = "♥️"
     case Spades = "♠️"
     case Clubs = "♣️"
+    
+    var description: String {
+    get {
+        return self.toRaw()
+    }
+    }
     
     static func allSuits() -> Suit[] {
         return [.Diamonds, .Hearts, .Spades, .Clubs]
     }
 }
 
-enum Rank: Int {
+enum Rank: Int, Printable {
     case Ace = 1
     case Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten
     case Jack, Queen, King
     
-    func description() -> String {
+    var description: String {
+    get {
         switch self {
         case .Ace:
             return "A"
@@ -36,6 +43,7 @@ enum Rank: Int {
             return String(toRaw())
         }
     }
+    }
     
     static var maxRank = 13
 }
@@ -46,7 +54,7 @@ class PlayingCard: Card {
     
     override var contents: String {
     get {
-        return "\(rank.description())\(suit.toRaw())"
+        return "\(rank)\(suit)"
     }
     set { }
     }

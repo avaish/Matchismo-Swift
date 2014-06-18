@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Deck {
+class Deck: Printable {
     var cards = Card[]()
     
     var description: String {

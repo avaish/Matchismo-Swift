@@ -43,5 +43,7 @@ class PlayingCardTestCase: XCTestCase {
         
         XCTAssert(card.contents == "A♠️", "Contents not overriden.")
         XCTAssert(card.description == "A♠️", "Description not overriden.")
+        
+        println("Playing Card: \(card)")
     }
 }

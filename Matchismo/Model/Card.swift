@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Atharv Vaish. All rights reserved.
 //
 
-class Card {
+class Card: Printable {
     var contents = ""
     var chosen = false
     var matched = false

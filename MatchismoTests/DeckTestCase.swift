@@ -67,6 +67,8 @@ class DeckTestCase: XCTestCase {
         
         drawnCard = deck.drawRandomCard()
         XCTAssert(deck.description == "Deck of 0 Card(s)", "Incorrect description")
+        
+        println("Deck: \(deck)")
     }
 
 }

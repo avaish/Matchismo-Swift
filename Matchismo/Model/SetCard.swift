@@ -6,30 +6,48 @@
 //  Copyright (c) 2014 Atharv Vaish. All rights reserved.
 //
 
-enum SetSymbol: String {
+enum SetSymbol: String, Printable {
     case Diamond = "Diamond"
     case Squiggle = "Squiggle"
     case Oval = "Oval"
+    
+    var description: String {
+    get {
+        return self.toRaw()
+    }
+    }
     
     static func validSymbols() -> SetSymbol[] {
         return [.Diamond, .Squiggle, .Oval]
     }
 }
 
-enum SetShading: String {
+enum SetShading: String, Printable {
     case Solid = "Solid"
     case Striped = "Striped"
     case Open = "Open"
+    
+    var description: String {
+    get {
+        return self.toRaw()
+    }
+    }
     
     static func validSymbols() -> SetShading[] {
         return [.Solid, .Striped, .Open]
     }
 }
 
-enum SetColor: String {
+enum SetColor: String, Printable {
     case Red = "Red"
     case Green = "Green"
     case Blue = "Blue"
+    
+    var description: String {
+    get {
+        return self.toRaw()
+    }
+    }
     
     static func validSymbols() -> SetColor[] {
         return [.Red, .Green, .Blue]
@@ -44,7 +62,7 @@ class SetCard: Card {
     
     override var contents: String {
     get {
-        return "\(number) \(color.toRaw()) \(shading.toRaw()) \(symbol.toRaw())"
+        return "\(number) \(color) \(shading) \(symbol)"
     }
     set { }
     }

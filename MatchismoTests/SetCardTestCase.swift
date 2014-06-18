@@ -48,6 +48,8 @@ class SetCardTestCase: XCTestCase {
         
         XCTAssert(card.contents == "1 Red Solid Diamond", "Contents not overriden.")
         XCTAssert(card.description == "1 Red Solid Diamond", "Description not overriden.")
+        
+        println("Set Card: \(card)")
     }
 
 }

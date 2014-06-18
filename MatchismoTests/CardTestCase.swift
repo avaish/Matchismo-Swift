@@ -51,6 +51,8 @@ class CardTestCase: XCTestCase {
         
         XCTAssert(card.contents == "Test Card", "Contents getter error.")
         XCTAssert(card.description == "Test Card", "Description getter error.")
+        
+        println("Card: \(card)")
     }
 
 }
