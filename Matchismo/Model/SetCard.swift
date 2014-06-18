@@ -33,7 +33,7 @@ enum SetShading: String, Printable {
     }
     }
     
-    static func validSymbols() -> SetShading[] {
+    static func validShadings() -> SetShading[] {
         return [.Solid, .Striped, .Open]
     }
 }
@@ -49,7 +49,7 @@ enum SetColor: String, Printable {
     }
     }
     
-    static func validSymbols() -> SetColor[] {
+    static func validColors() -> SetColor[] {
         return [.Red, .Green, .Blue]
     }
 }

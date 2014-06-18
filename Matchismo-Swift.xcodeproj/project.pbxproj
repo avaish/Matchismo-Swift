@@ -20,6 +20,8 @@
 		4567A4AE194460AE004F888E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567A4AD194460AE004F888E /* Card.swift */; };
 		456881581949B70D005B2EB9 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456881571949B70D005B2EB9 /* Set.swift */; };
 		4585965F1950EF2400D2614F /* SetTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4585965E1950EF2400D2614F /* SetTestCase.swift */; };
+		45AC358619522E7700010716 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC358519522E7700010716 /* PlayingCardDeck.swift */; };
+		45AC358819522FB900010716 /* SetCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC358719522FB900010716 /* SetCardDeck.swift */; };
 		45D70B7A1949ABD600AAC25A /* SetCardTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D70B791949ABD600AAC25A /* SetCardTestCase.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +88,8 @@
 		4567A4AD194460AE004F888E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Model/Card.swift; sourceTree = "<group>"; };
 		456881571949B70D005B2EB9 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Set.swift; path = Types/Set.swift; sourceTree = "<group>"; };
 		4585965E1950EF2400D2614F /* SetTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTestCase.swift; sourceTree = "<group>"; };
+		45AC358519522E7700010716 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		45AC358719522FB900010716 /* SetCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetCardDeck.swift; sourceTree = "<group>"; };
 		45D70B791949ABD600AAC25A /* SetCardTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetCardTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				4567A4AD194460AE004F888E /* Card.swift */,
+				45AC358519522E7700010716 /* PlayingCardDeck.swift */,
+				45AC358719522FB900010716 /* SetCardDeck.swift */,
 				4567A4AB1944604C004F888E /* PlayingCard.swift */,
 				454D932B1949C1C600A2C4B6 /* Deck.swift */,
 				4527F65D19471C5B00CEA4FC /* SetCard.swift */,
@@ -312,8 +318,10 @@
 				4567A48319445F83004F888E /* ViewController.swift in Sources */,
 				456881581949B70D005B2EB9 /* Set.swift in Sources */,
 				4567A48119445F83004F888E /* AppDelegate.swift in Sources */,
+				45AC358619522E7700010716 /* PlayingCardDeck.swift in Sources */,
 				4567A4AC1944604C004F888E /* PlayingCard.swift in Sources */,
 				4567A4AE194460AE004F888E /* Card.swift in Sources */,
+				45AC358819522FB900010716 /* SetCardDeck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
